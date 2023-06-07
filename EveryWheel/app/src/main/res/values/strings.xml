@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">EveryWheel</string>
+    <string name="submit">My Application_api</string>
+    <string name="TOAST_MESSAGE">"새로고침 되었습니다."</string>
+    <string name="every">"EveryWheel"</string>
+</resources>
