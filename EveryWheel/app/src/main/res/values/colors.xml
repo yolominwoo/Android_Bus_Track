@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    <color name="blue">#3396ff</color>     <color name="tint_blue">#48a1ff</color> -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#F1F4FC</color>
+    <color name="tint_blue">#7186c7</color>
+    <color name="gray">#b1b1b1</color>
+    <color name="little_gray">#e8e8e8</color>
+    <color name="blue2">#304583</color>
+    <color name="yellow">#fc8838</color>
+    <color name="signature">#374ba4</color>
+    <color name="kktrain">#117de8</color>
+    <color name="sbtrain">#f2b802</color>
+    <color name="eighttrain">#e61a6d</color>
+
+</resources>

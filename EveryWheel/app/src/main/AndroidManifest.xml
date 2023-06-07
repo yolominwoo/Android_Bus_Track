@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera" android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:usesCleartextTraffic="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EveryWheel"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TransitActivity" android:label="Transit 액티비티" />
+        <activity android:name=".TaxiActivity" android:label="Taxi 액티비티" />
+        <activity android:name=".GuideActivity" android:label="Guide 액티비티" />
+        <activity android:name=".ProfileActivity" android:label="Profile 액티비티" />
+        <activity android:name=".RouteActivity" android:label="Route 액티비티" />
+        <activity android:name=".SubwayRouteActivity" android:label="SubwayRoute 액티비티" />
+        <activity android:name=".TaxitoProfile" android:label="Loading 액티비티"/>
+        <activity android:name=".ProfiletoTaxi" android:label="Loding 액티비티"/>
+        <activity android:name=".Route1_subway"/>
+        <activity android:name=".Route2_subway"/>
+        <activity android:name=".Route1_bus"/>
+        <activity android:name=".Route2_bus"/>
+        <activity android:name=".Route2_all"/>
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="6c4a42ee57342cd6e8920e788e98bc5a" />
+    </application>
+
+</manifest>
